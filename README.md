@@ -52,8 +52,8 @@ Stay tuned for updates as we continue to improve the technology and features of 
 - **Project by**: Robin Louis
 - **Website Design and Development**: Robin Louis (r0b1nc0d3r)
   
-Feel free to reach out for collaborations or further inquiries. You can contact me via email at `your-email@example.com`.
+Feel free to reach out for collaborations or further inquiries. You can contact me via email at `githubrobin@gmail.com`.
 
 ---
 
-This README will help others understand what the project is about, how to access it, and how they can contribute.
+
