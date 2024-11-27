@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PalmPay 2025 - Progress</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      background: linear-gradient(135deg, #e0eafc, #cfdef3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      overflow: hidden;
+    }
+    .container {
+      text-align: center;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      background: #fff;
+      max-width: 500px;
+      width: 90%;
+    }
+    h1 {
+      font-size: 2rem;
+      color: #4A47A3;
+    }
+    p {
+      font-size: 1rem;
+      color: #666;
+      margin: 10px 0 20px;
+    }
+    .loader {
+      border: 5px solid #f3f3f3;
+      border-top: 5px solid #4A47A3;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+      margin: 20px auto;
+    }
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    .button {
+      display: inline-block;
+      padding: 12px 25px;
+      margin-top: 20px;
+      font-size: 1rem;
+      color: #fff;
+      background: linear-gradient(135deg, #FF9A8B, #FF6A5C);
+      border: none;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    }
+    .investor-button {
+      background: linear-gradient(135deg, #FF7F50, #FF4B5C);
+      margin-top: 15px;
+    }
+    .investor-button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 12px rgba(233, 57, 70, 0.4);
+    }
+    footer {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #999;
+    }
+    footer a {
+      text-decoration: none;
+      color: #4A47A3;
+    }
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 0.9rem;
+      }
+      .loader {
+        width: 50px;
+        height: 50px;
+        border-width: 4px;
+      }
+      .button {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>PalmPay 2025 🚀</h1>
+    <p>Empowering Indian people to pay using their palm. Stay tuned for an innovative payment revolution!</p>
+    <div class="loader"></div>
+    <p><b>Project Status:</b> In Progress...</p>
+    <a href="https://forms.gle/UzNUwBfmqLb3WvS36" target="_blank" class="button investor-button">Searching for Investors</a>
+    <footer>
+      Created by <a href="#">Robin Louis</a> | © 2024 PalmPay
+    </footer>
+  </div>
+</body>
+</html>
