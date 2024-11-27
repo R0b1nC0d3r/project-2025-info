@@ -1,6 +1,5 @@
 # project-2025-info
 
-Here's a sample README for your PalmPay 2025 project, with details about the project and how to use the website:
 
 ---
 
